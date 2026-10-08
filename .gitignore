@@ -1,0 +1,17 @@
+# Input data (see README) and CSV forecasts written by the notebooks
+data/
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
