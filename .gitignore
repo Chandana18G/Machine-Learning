@@ -1,4 +1,4 @@
-# Input data (see README) and CSV forecasts written by the notebooks
+# CSV forecasts written by the notebooks (input data lives outside the repo, see README)
 data/
 *.csv
 

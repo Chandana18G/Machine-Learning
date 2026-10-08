@@ -60,13 +60,15 @@ Each notebook is self-contained: a backtest section followed by a forecast secti
 
 ## Data
 
-The data files are not committed. Put them in a `data/` folder next to the notebooks:
+The data files are not committed. The notebooks load them from these paths, so either place
+the files there or change the path at the top of each notebook:
 
-- `data/compact.csv`: the Our World in Data COVID-19 dataset (compact version), available
-  from https://docs.owid.io/projects/covid/en/latest/dataset.html. The notebooks use the
+- `/Users/chandana/Documents/Python for Data Science/compact.csv`: the Our World in Data
+  COVID-19 dataset (compact version), available from
+  https://docs.owid.io/projects/covid/en/latest/dataset.html. The notebooks use the
   columns `country`, `date`, `new_cases`, `new_deaths`, `icu_patients`, `hosp_patients`,
   `people_fully_vaccinated_per_hundred`, `stringency_index` and `reproduction_rate`.
-- `data/rki_merged_all_ages.csv`: a merge of the Robert Koch Institute's public daily case,
+- `/Users/chandana/Downloads/rki_merged_all_ages.csv`: a merge of the Robert Koch Institute's public daily case,
   death and hospitalisation series by federal state and age group, with the columns
   `Meldedatum`, `Bundesland`, `Altersgruppe`, `Faelle_neu`, `Todesfaelle`,
   `7T_Hospitalisierung_Faelle`, `Inzidenz_7-Tage` and `7T_Hospitalisierung_Inzidenz`. The
