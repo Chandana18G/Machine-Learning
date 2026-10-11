@@ -77,8 +77,8 @@ the files there or change the path at the top of each notebook:
 ## Setup
 
 ```bash
-git clone https://github.com/Chandana18G/Machine-Learning.git
-cd Machine-Learning
+git clone https://github.com/Chandana18G/covid-icu-mortality-forecasting.git
+cd covid-icu-mortality-forecasting
 
 python -m venv .venv
 source .venv/bin/activate     # Windows: .venv\Scripts\activate
